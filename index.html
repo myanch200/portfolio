@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Martin Yanchev| Portfolio </title>
+</head>
+<body>
+    <header>
+        <ul class="navbar"> 
+            <svg class="logo" width="88" height="72" viewBox="0 0 88 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95229 13.421L29.0737 14.1822L27.0642 23.5835L7.99266 22.5888L9.95229 13.421Z" fill="#4DA893"/>
+                <path d="M39.3566 13.8368L60.826 15.2955L58.8663 24.4633L37.317 23.3788L39.3566 13.8368Z" fill="#D1504E"/>
+                <path d="M70.4141 15.5841L86.8338 16.1591L84.9542 24.9528L68.4145 24.9391L70.4141 15.5841Z" fill="#367CC6"/>
+                <path d="M6.52918 30.6889L57.3066 31.7602L55.307 41.1152L4.56955 39.8567L6.52918 30.6889Z" fill="#D1504E"/>
+                <path d="M67.4662 31.8854L82.4876 32.5528L80.608 41.3464L65.5866 40.679L67.4662 31.8854Z" fill="#4DA893"/>
+                <path d="M3.65715 46.7051L21.0915 47.6926L19.2919 56.1121L1.81749 55.3116L3.65715 46.7051Z" fill="#4DA893"/>
+                <path d="M31.247 47.9068L78.0132 49.6859L76 55.9521L29.5273 55.9521L31.247 47.9068Z" fill="#367CC6"/>
+            </svg>
+            <div class="links-wrapper">
+
+                <li><a  class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">Projects</a></li>
+                <li><a class="nav-link" href="">About me</a></li>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-details">
+
+                <h1 class="section-header">Hi , I am Martin !</h1>
+                <div class="hero-paragraph">
+
+                    <p>Soon to be web developer.</p>
+                    <p>Interested in Python and Javascript.</p>
+                </div>
+                <div class="cta-wrapper">
+                    <a href="" class="cta-btn">Download CV</a>
+
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+           <h1 class='section-header'>Projects</h1>
+           <div class="color-border">
+               <div class="green sm"></div>
+               <div class="red sm"></div>
+               <div class="red xl"></div>
+               <div class="green xl"></div>
+               <div class="blue sm"></div>
+               <div class="blue xl"></div>
+           </div> 
+           <div class="card-wrapper">
+               
+               <div class="project-card">
+                   <div class="project-left">
+                       <h2 class="project-title">Avertio</h2>
+                       <p class="project-description"></p>
+                       <div class="tech-tags">
+
+                          
+                       </div>
+                        <a href="" class="cta-github">Code </a>
+                   </div>
+                   <div class="project-right">
+                       <img src="{{project.thumbnail.url}}" alt="" width="330" height="360">
+                   </div>
+               </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <h2 class="project-title">Avertio</h2>
+                    <p class="project-description"></p>
+                    <div class="tech-tags">
+
+                       
+                    </div>
+                     <a href="" class="cta-github">Code </a>
+                </div>
+                <div class="project-right">
+                    <img src="{{project.thumbnail.url}}" alt="" width="330" height="360">
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-left">
+                    <h2 class="project-title">Avertio</h2>
+                    <p class="project-description"></p>
+                    <div class="tech-tags">
+
+                       
+                    </div>
+                     <a href="" class="cta-github">Code </a>
+                </div>
+                <div class="project-right">
+                    <img src="{{project.thumbnail.url}}" alt="" width="330" height="360">
+                </div>
+            </div>
+           </div>    
+        </section>
+    </main>
+</body>
+</html>
