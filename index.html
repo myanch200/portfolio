@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <title>Martin Yanchev| Portfolio </title>
 </head>
@@ -65,12 +66,46 @@
             <div class="project-card">
                 <div class="project-left">
                     <h2 class="project-title">Advertio</h2>
-                    <p class="project-description"></p>
+                    
+                    <p class="project-description">
+                        Advertio is a 'clone' of the popular olx website. A big part of the layout and UI components are taken from there.
+                        It provides functionalities such adding a new advert with dropzoneJS integrated so that the user can drop multiple images and they will be saved as part of the advert. Each advert can be associated with a category.
+                        And all the images are presented in nice carousel.
+                        For the project I have used Django as my backend , HTML , CSS , JS, Ajax for for data exchange. PostgreSQL for database. And Figma for the designing part.
+                    </p>
+                    
                     <div class="tech-tags">
-    
+                       
+                        <span class="tag">
+                            <i class="devicon-django-plain colored"></i>
+                            Django
+                        </span>
+                        <span class="tag"><i class="devicon-html5-plain-wordmark colored"></i>
+                            HTML</span>
+                        <span class="tag">
+                            <i class="devicon-css3-plain-wordmark colored"></i>
+                            CSS
+                        </span>
+                        <span class="tag">
+                            <i class="devicon-javascript-plain colored"></i>
+                            Javascript
+                        </span>
+                        <span class="tag">
+                            <i class="devicon-postgresql-plain-wordmark colored"></i>
+
+                            PostgreSQL
+                        </span>
+
+
                        
                     </div>
-                     <a href="" class="cta-github">Code </a>
+                     <a href="https://github.com/myanch200/advertio" target="_blank" class="code-link" >
+                         <div class="cta-github">
+                            <span>Code</span>
+                            <i class="devicon-github-original-wordmark"></i>
+                         </div>
+                         
+                     </a>
                 </div>
                 <div class="project-right">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
