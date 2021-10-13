@@ -32,7 +32,7 @@ body{
     color: #0C0B0B;
     padding:0.2rem;
     border-right: 2px solid #AD9393;
-    transition: all 1s linear;
+   
 }
 .hero-section{
     display:flex;
