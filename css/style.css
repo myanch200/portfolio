@@ -1,3 +1,7 @@
+:root{
+    --green-color: #4DA893;
+    --dark-red: #D1504E;
+}
 *{
     margin:0;
     padding:0;
@@ -56,7 +60,7 @@ body{
 }
 .hero-details .section-header {
     
-    color: #4DA893;
+    color: var(--green-color);
     width: 100%;
 }
 .hero-paragraph{
@@ -97,7 +101,7 @@ body{
     margin: 2rem;
 }
 .projects .section-header{
-    color: #D1504E;
+    color: var(--dark-red);
     width: 100%;
 }
 .color-border {
@@ -115,10 +119,10 @@ body{
     height: 5px;
 }
 .green{
-    background-color: #4DA893;
+    background-color: var(--green-color);
 }
 .red{
-    background-color: #D1504E;
+    background-color: var(--dark-red);
 }
 .blue{
     background-color: #367CC6;
@@ -151,7 +155,7 @@ body{
 }
 .project-title{
     font-size: 32pt;
-    color:#4DA893;
+    color: var(--green-color);
     font-family: 'Ubuntu',sans-serif;
 }
 .project-description{
